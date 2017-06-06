@@ -1,1 +1,1 @@
-web : java -jar target/helloworld.jar
+web : java src/main/java/Main.java
