@@ -3,10 +3,10 @@ import static spark.Spark.*;
 public class Main {
 	public static void main(String[] args) {
 
-		get("/", (request, response) -> {
+		//get("/", (request, response) -> {
 		
-		System.out.println("Hello World");
-		});
+		//System.out.println("Hello World");
+		//});
 
 		get("/hello", (req, res) -> "Hello World");
 	}
