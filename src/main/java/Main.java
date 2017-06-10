@@ -6,7 +6,9 @@ public class Main {
 		get("/", (request, response) -> {
 		
 		System.out.println("Hello World");
-		}
+		});
+
+		get("/hello", (req, res) -> "Hello World");
 	}
 	
 }
